@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Library.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fable.Core" Version="4.0.0" />
+    <PackageReference Include="Fable.React" Version="9.3.0" />
+    <PackageReference Include="Fable.React.Types" Version="18.3.0" />
+    <PackageReference Include="Fable.ReactDom.Types" Version="18.2.0" />
+    <PackageReference Include="Feliz.CompilerPlugins" Version="2.2.0" />
+  </ItemGroup>
+  
+</Project>
